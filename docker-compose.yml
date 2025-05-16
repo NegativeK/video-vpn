@@ -1,0 +1,10 @@
+---
+services:
+  ytdlp:
+    image: "ytdlp"
+    build: "."
+    volumes:
+      - "./data/:/downloads"
+      - "./config/wireguard/:/etc/wireguard/"
+    cap_add:
+      - NET_ADMIN

@@ -1,4 +1,4 @@
-Run wireguard for IP address anonymization.
+Wireguard and yt-dlp in a container for IP address cycling.
 
 # Warning
 This is not for privacy. It will leak information through DNS and
